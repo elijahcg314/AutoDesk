@@ -14,7 +14,7 @@
             width: 100%;
             height: 100vh;
             border: none;
-            display: none;  /* Start hidden */
+            display: none;  /* Initially hidden */
         }
         .consent-btn {
             position: absolute;
@@ -35,7 +35,7 @@
 </head>
 <body>
     <button class="consent-btn" id="consentButton">Agree and Inject Cookies</button>
-    <iframe id="appstreamIframe" src="https://appstream2.us-east-1.aws.amazon.com"></iframe> <!-- Define iframe URL here -->
+    <iframe id="appstreamIframe" src="https://appstream2.us-east-1.aws.amazon.com"></iframe> <!-- iframe with the target URL -->
     
     <script src="script.js"></script>
 </body>
