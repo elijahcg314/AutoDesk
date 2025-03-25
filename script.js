@@ -1,6 +1,15 @@
-// Initialize the AWS SDK
+// Check if AWS is loaded correctly
+if (typeof AWS === "undefined") {
+    console.error("AWS SDK is not defined. Please make sure the AWS SDK is loaded properly.");
+} else {
+    console.log("AWS SDK loaded successfully");
+}
+
+// Initialize the AWS SDK (Make sure to replace with your own configuration)
 AWS.config.update({
-    region: 'us-east-1', // Set the region
+    region: 'us-east-1', // Replace with your AWS region
+    accessKeyId: 'YOUR_ACCESS_KEY', // Replace with your AWS Access Key
+    secretAccessKey: 'YOUR_SECRET_KEY' // Replace with your AWS Secret Key
 });
 
 // Function to set cookies
@@ -17,11 +26,9 @@ function setCookies(cookies) {
 
 // Function to open the AppStream page in a new tab
 function openAppStreamPage() {
-    // Open the URL in a new window or tab
     const appStreamWindow = window.open("https://appstream2.us-east-1.aws.amazon.com", "_blank");
 
     if (appStreamWindow) {
-        // You can call any additional code for tracking or handling interactions here
         console.log("AppStream page opened successfully");
     } else {
         console.error("Failed to open new window/tab.");
