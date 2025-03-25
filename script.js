@@ -1,27 +1,29 @@
 document.getElementById("consentButton").addEventListener("click", function() {
-    console.log("Consent button clicked"); // Debugging: Check if button was clicked
+    console.log("Consent button clicked");
 
-    // Fetch cookies from the cookies.json file
+    // Fetch cookies from cookies.json
     fetch("cookies.json")
         .then(response => response.json())
         .then(cookies => {
-            console.log("Cookies loaded:", cookies); // Debugging: Verify cookies loaded
+            console.log("Cookies loaded:", cookies);
 
             // Inject cookies into the document
             cookies.forEach(cookie => {
                 try {
                     document.cookie = `${cookie.name}=${cookie.value}; domain=${cookie.domain}; path=${cookie.path}; secure=${cookie.secure}; samesite=${cookie.sameSite || 'None'};`;
-                    console.log(`Cookie set: ${cookie.name}`); // Debugging: Check if cookie is set
+                    console.log(`Cookie set: ${cookie.name}`);
                 } catch (error) {
-                    console.error("Error setting cookie:", error); // Debugging: Check for errors when setting cookies
+                    console.error("Error setting cookie:", error);
                 }
             });
 
-            // After cookies are set, redirect to the AppStream page directly
-            window.location.href = "https://appstream2.us-east-1.aws.amazon.com";
-            console.log("Redirecting to AppStream"); // Debugging: Ensure redirect happens
+            // After cookies are set, show the iframe
+            const iframe = document.getElementById("appstreamIframe");
+            iframe.src = "https://appstream2.us-east-1.aws.amazon.com";  // Your iframe URL
+            iframe.style.display = "block";  // Make the iframe visible
+            document.querySelector(".consent-btn").style.display = "none";  // Hide consent button
         })
         .catch(err => {
-            console.error("Error loading cookies:", err); // Debugging: Check if cookies are loading correctly
+            console.error("Error loading cookies:", err);
         });
 });
