@@ -35,7 +35,7 @@
 </head>
 <body>
     <button class="consent-btn" id="consentButton">Agree and Inject Cookies</button>
-    <iframe id="appstreamIframe" src="https://appstream2.us-east-1.aws.amazon.com"></iframe> <!-- iframe with the target URL -->
+    <iframe id="appstreamIframe" src="https://appstream2.us-east-1.aws.amazon.com" sandbox="allow-scripts allow-same-origin"></iframe> <!-- Using sandbox for security -->
     
     <script src="script.js"></script>
 </body>
