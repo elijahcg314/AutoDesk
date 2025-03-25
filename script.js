@@ -1,26 +1,30 @@
-// Function to authenticate and make a request to AWS AppStream
-function authenticateWithCookies() {
-  var xhr = new XMLHttpRequest();
-  xhr.open('GET', 'https://appstream2.us-east-1.aws.amazon.com', true);
-  xhr.withCredentials = true;  // This will include cookies with the request
+// script.js
 
-  xhr.onload = function () {
-    if (xhr.status === 200) {
-      console.log('Authenticated successfully', xhr.responseText);
-      // Handle successful response here
-    } else {
-      console.error('Error: ' + xhr.status);
-    }
-  };
+document.getElementById("consent-button").addEventListener("click", function() {
+  console.log("Consent button clicked");
 
-  xhr.onerror = function () {
-    console.error('Request failed');
-  };
+  // Simulate loading cookies after consent
+  loadCookies();
 
-  xhr.send();
+  // Display the iframe once consent is given
+  document.getElementById("iframe").style.display = "block";
+  document.getElementById("iframe").src = "https://signin.aws.amazon.com";  // Change to the actual URL you want to load
+
+  // Optionally, inject cookies before loading the iframe
+  console.log("Iframe displayed");
+});
+
+function loadCookies() {
+  // Simulating setting cookies after consent
+  const cookies = [
+    { name: "JSESSIONID", value: "123456" },
+    { name: "aws-prism-private-beta-allowlisted", value: "true" },
+    { name: "aws-userInfo-signed", value: "userInfoValue" }
+    // Add all your cookies here
+  ];
+
+  cookies.forEach(cookie => {
+    document.cookie = `${cookie.name}=${cookie.value}; path=/; domain=yourdomain.com`; // Set cookies on the same domain
+    console.log(`Cookie set: ${cookie.name}`);
+  });
 }
-
-// Run the authentication function when the page loads
-window.onload = () => {
-  authenticateWithCookies();
-};
