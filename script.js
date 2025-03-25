@@ -17,7 +17,7 @@ document.getElementById("consentButton").addEventListener("click", function() {
                 }
             });
 
-            // After cookies are set, make the iframe visible
+            // Once cookies are set, show the iframe
             const iframe = document.getElementById("appstreamIframe");
             iframe.style.display = "block";  // Show the iframe
             document.querySelector(".consent-btn").style.display = "none";  // Hide the consent button
