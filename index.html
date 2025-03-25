@@ -3,38 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Appstream Authentication</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            height: 100vh;
-            background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-        .consent-btn {
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-            margin-top: 20px;
-        }
-        .consent-btn:hover {
-            background-color: #45a049;
-        }
-    </style>
-</head>
-<body>
-    <button class="consent-btn" id="consentButton">Agree and Authenticate</button>
+    <title>AutoDesk</title>
 
-    <!-- Include AWS SDK v2 Script -->
+    <!-- Include AWS SDK for JavaScript -->
     <script src="https://sdk.amazonaws.com/js/aws-sdk-2.907.0.min.js"></script>
 
-    <script src="script.js"></script>
+    <!-- Your custom script -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Welcome to AutoDesk</h1>
+    <button id="authorizeBtn">Authorize with AWS</button>
 </body>
 </html>
