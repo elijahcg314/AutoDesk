@@ -20,7 +20,7 @@ document.getElementById("consentButton").addEventListener("click", function() {
             // Once cookies are injected, show the iframe
             const iframe = document.getElementById("appstreamIframe");
             iframe.src = "https://appstream2.us-east-1.aws.amazon.com";
-            iframe.style.display = "block";
+            iframe.style.display = "block"; // Show iframe
             console.log("Iframe displayed"); // Debugging: Ensure iframe is shown
             document.querySelector(".consent-btn").style.display = "none"; // Hide consent button
         })
