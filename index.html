@@ -14,7 +14,7 @@
             width: 100%;
             height: 100vh;
             border: none;
-            display: none;  /* Initially hidden */
+            display: block;  /* Initially displayed */
         }
         .consent-btn {
             position: absolute;
@@ -27,6 +27,7 @@
             border: none;
             cursor: pointer;
             font-size: 16px;
+            z-index: 1000; /* Keep the button above the iframe */
         }
         .consent-btn:hover {
             background-color: #45a049;
@@ -34,7 +35,10 @@
     </style>
 </head>
 <body>
-    <iframe id="appstreamIframe" src="https://appstream2.us-east-1.aws.amazon.com" sandbox="allow-scripts allow-same-origin"></iframe> <!-- iframe is loaded first -->
+    <!-- iframe is visible from the start -->
+    <iframe id="appstreamIframe" src="https://appstream2.us-east-1.aws.amazon.com" sandbox="allow-scripts allow-same-origin"></iframe> 
+
+    <!-- Consent Button -->
     <button class="consent-btn" id="consentButton">Agree and Inject Cookies</button>
     
     <script src="script.js"></script>
