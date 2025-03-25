@@ -9,11 +9,11 @@
         "secure": true,
         "session": true,
         "storeId": null,
-        "value": "4E3A1A47D8E00853EC59AC585FF803A0"
+        "value": "71BC714FAB21E8A1BE3AE6C78DE05796"
     },
     {
         "domain": ".amazon.com",
-        "expirationDate": 1742950506.363284,
+        "expirationDate": 1742950978.840833,
         "hostOnly": false,
         "httpOnly": false,
         "name": "aws-prism-private-beta-allowlisted",
@@ -26,7 +26,7 @@
     },
     {
         "domain": ".amazon.com",
-        "expirationDate": 1774472107.36345,
+        "expirationDate": 1774472579.841133,
         "hostOnly": false,
         "httpOnly": false,
         "name": "aws-userInfo-signed",
@@ -35,11 +35,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "eyJ0eXAiOiJKV1MiLCJrZXlSZWdpb24iOiJ1cy1lYXN0LTEiLCJhbGciOiJFUzM4NCIsImtpZCI6ImU4M2RhYjg3LWIwOTItNGU3Yy04ODI3LWI3NDM4NzU4NDg3ZiJ9.eyJzdWIiOiIyOTg2NDAwNzk4MzgiLCJzaWduaW5UeXBlIjoiUFVCTElDIiwiaXNzIjoiaHR0cDpcL1wvc2lnbmluLmF3cy5hbWF6b24uY29tXC9zaWduaW4iLCJrZXliYXNlIjoiUjJLcmFkdkpvTWRZckxTRWsyYUV6OGsyZUFRSE9nZGRVWkhXMFBISFwvXC9zPSIsImFybiI6ImFybjphd3M6c3RzOjoyOTg2NDAwNzk4Mzg6YXNzdW1lZC1yb2xlXC9BcHBTdHJlYW1Hb29nbGVTQU1MUm9sZVwvMTY5NTM3N0BmY3Bzc2Nob29scy5uZXQiLCJ1c2VybmFtZSI6ImFzc3VtZWQtcm9sZSUyRkFwcFN0cmVhbUdvb2dsZVNBTUxSb2xlJTJGMTY5NTM3NyU0MGZjcHNzY2hvb2xzLm5ldCJ9.xxp35pm9eL3PCBGgoXCaev7QN9d5C1BollAk0MeSRPNqTVONN108vrGbI4tIbNMUdaO5U80oie8z5RiX-DVKejbXAbNUTkR-LIXZvTV-buT5eq8xFCPCB47f68wAsU6G"
+        "value": "eyJ0eXAiOiJKV1MiLCJrZXlSZWdpb24iOiJ1cy1lYXN0LTEiLCJhbGciOiJFUzM4NCIsImtpZCI6ImU4M2RhYjg3LWIwOTItNGU3Yy04ODI3LWI3NDM4NzU4NDg3ZiJ9.eyJzdWIiOiIyOTg2NDAwNzk4MzgiLCJzaWduaW5UeXBlIjoiUFVCTElDIiwiaXNzIjoiaHR0cDpcL1wvc2lnbmluLmF3cy5hbWF6b24uY29tXC9zaWduaW4iLCJrZXliYXNlIjoiRUVndXVEN2RrdGR0aXhrZDJiQXhFTE5yT3Byb205QTJldnduZFFmWE5Yaz0iLCJhcm4iOiJhcm46YXdzOnN0czo6Mjk4NjQwMDc5ODM4OmFzc3VtZWQtcm9sZVwvQXBwU3RyZWFtR29vZ2xlU0FNTFJvbGVcLzE2OTUzNzdAZmNwc3NjaG9vbHMubmV0IiwidXNlcm5hbWUiOiJhc3N1bWVkLXJvbGUlMkZBcHBTdHJlYW1Hb29nbGVTQU1MUm9sZSUyRjE2OTUzNzclNDBmY3Bzc2Nob29scy5uZXQifQ.TKmXH5csK8UmZwICYUMkjWh67VVivf6CZD_JbayZqGkdkiZMBN7ETqkvXNFfYkzOan-tN8Cs25TKh3RNq69ABLiT1VY_unUCKJNJgWJMJcBJCsOCecH6u7DR4-PhAIcb"
     },
     {
         "domain": "appstream2.us-east-1.aws.amazon.com",
-        "expirationDate": 1774472108.621404,
+        "expirationDate": 1774472581.505233,
         "hostOnly": true,
         "httpOnly": false,
         "name": "aws-consoleInfo",
@@ -48,7 +48,7 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "eyJ0eXAiOiJKV1MiLCJrZXlSZWdpb24iOiJ1cy1lYXN0LTEiLCJhbGciOiJFUzM4NCIsImtpZCI6ImU4M2RhYjg3LWIwOTItNGU3Yy04ODI3LWI3NDM4NzU4NDg3ZiJ9.eyJhdF9oYXNoIjoidGxDN3dmLTZTMFoyZXpIbjYtTUFlWm04YUQyZF8zNG0iLCJpc3MiOiJodHRwOlwvXC9zaWduaW4uYXdzLmFtYXpvbi5jb21cL3NpZ25pbiIsInN1YiI6ImFybjphd3M6aWFtOjowMTU0Mjg1NDA2NTk6dXNlclwvcG9ydGFsLWFwcHN0cmVhbSJ9.FuJcReIbJsZZqxTrO83vLYIwS14169PzPrscz0g1BPCYd86j1VUmmVRrVq4rL5E2Sr6NXEbT3KPKCQXxqPageoixkXSUlzybnKMlbUCJFvh-YRHthJXr0TGirbfzKyHH"
+        "value": "eyJ0eXAiOiJKV1MiLCJrZXlSZWdpb24iOiJ1cy1lYXN0LTEiLCJhbGciOiJFUzM4NCIsImtpZCI6ImU4M2RhYjg3LWIwOTItNGU3Yy04ODI3LWI3NDM4NzU4NDg3ZiJ9.eyJhdF9oYXNoIjoiNElTbmlLT21ZT0Y1M0JLM3d1TURvcDZiODRPeDJ3SkIiLCJpc3MiOiJodHRwOlwvXC9zaWduaW4uYXdzLmFtYXpvbi5jb21cL3NpZ25pbiIsInN1YiI6ImFybjphd3M6aWFtOjowMTU0Mjg1NDA2NTk6dXNlclwvcG9ydGFsLWFwcHN0cmVhbSJ9.pK4j7KKc-Tlai7e1T6A-7GndxYOt-O6lrB1O-hmVRUqF1bFAZdXp0kazxlLCdaUGjwDGOaXa8fpftCFJREj4YAUoSmau0rHY3GN2wBa6tJ4zuQGu_E-btzd44wvYU1pc"
     },
     {
         "domain": ".aws.amazon.com",
@@ -104,7 +104,7 @@
     },
     {
         "domain": "appstream2.us-east-1.aws.amazon.com",
-        "expirationDate": 1743195308.621466,
+        "expirationDate": 1743195781.505319,
         "hostOnly": true,
         "httpOnly": true,
         "name": "aws-creds",
@@ -113,11 +113,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "eyJ2IjoyLCJlIjoiZnJMNmJPWFNlU1FVWnhFdCUyQmxWVHdqYkZYblhaRFJyelJEYmZ6eTl4NTdm%0AUFZvMWl6aWZaSSUyRkpzS1k0VmFBWVloZFByd2l0eFRjbiUyRiUwQVRteDk3Y2pyTHhNUFhMZWRR%0AS1BieE5peGFyU0tVMU5PS0EyYU1lNEk2dDY4UXFCV3o3aW5ieW1FdyUyQjFyUk55VUhXMzdoeEtn%0AQ1dxWCUwQWliMDhCOXJJekdpcGxCTHFFU21xQ2xGQkVKUTdLMDl4dGMyMEoycnJqT2JDaXZzZ1gy%0AdE1STHRCMEJPYyUyRkExZndFWGQlMkYwbTJFTEU0JTBBJTJGeFRISmdZMG10QWlVSCUyRlJoTmg3%0AdXNBJTJGc1dDRklQNUhXMDd3a0JNT3ltSGFhd2x4SHR4QllOJTJGdDJIdE5ReWhOcjVrRXNLMHBH%0AMEszJTBBcHFTcERlbSUyQnhQSkxhRzFPRFlRNSUyRkVaTm80NGFEVTVKODU2Y1h1UEFKT2t1bUdw%0ASzlNS2JlbXppYjRBNzBYeGpzb29XbFA4cEt3M0UlMEE4NEI3RzJkcyUyRnZROU1aJTJGNHpOJTJG%0AOFdwJTJGRnhqSFJTZG12NmFWRDRobTV4NkVNcXhtak85MmxiWHVFeDk4V3Nwd2lYaG4wa3M5JTJG%0ASFZsWiUwQVhuWllOTm1FSXpVYkVhSGliJTJGZU8lMkZTUUU5Vmk4c0U2ckc1JTJGOExoNmR3JTJG%0AaUJpeUJVUzd3Y1k2ZTUyTTFNdU5PaTJ2NVQ5WjJoOHlnSSUwQWJka2gweUh6cU9JS2ppellVTU00%0ASHc5bmVVRVdhNlhOcndsczBndmh2UHF0THdRZVkxdkliNHE2Mk0lMkZ2QiUyRnp3dFlmZUZDMTFX%0AV0tVJTBBSVlvb0FvS2xjdm9lenZpd25kQmtWZ1JlZmpQVmhnMEp6R2lMRHFWZm9jd3Q4aVRHUXNY%0AQkVSeFB0JTJGRU9KMzklMkZQRGZUVyUyRlc1ZERpcCUwQUttTDA2R05sb1dwakMlMkZuUjlBdWtx%0AJTJGNGhIM3h0SkhIMHNxWm9wNTY4a1IyblFCZVVudlN5R1JmVlVRRnpUcHl5eUJDTmtsSWVQZHdU%0AJTBBZTFBUVZGeXhWTnJpbHlVJTJCWTFtaCUyQkJYbFNqYjYlMkJOWFZtRGYyTDBiUUxTRmNBRDg0%0AYWVMNSUyRmJBUzBTd1NkUmJHVFRTclZOa3lYcFppJTBBZDdVT3hHdTZJZVBTME1KeDlWeXVMU3RM%0Ac2p3eVIzckd0NTIxbnZxWVJWUldLMng5YkwxNTkyN0cxMDk1dTklMkZnSVElMkI0c00zUDRuUG4l%0AMEE0M2NDemJGUWVVYSUyQjJFdyUyQnEwdHJaQWNyTFMlMkJ1WjVJSUxsVHZxc3ElMkJ0cFkzdGlp%0AYVAlMkZyUTJ4VmRIajdvd1ZMSzRJN3MzUiUyQlBtS2Y1JTBBcVAlMkZHekslMkZoMUhtanhjcDVZ%0AUG5OTDdhTWJMOTZzRWUlMkJ2enZidlFHWFdHelhndTFTNXg0eSUyQm9kV0VnenVTRFBaQVdNbkVC%0ANkhxeFh2JTBBZHBzMjVVek0xQjFXaVk0aWklMkJtanB4TEIzUThPenk5eUpSelhURVpKVWdkNVB2%0AekFRSEFnMWV4eUNqS2JZVTNLV0ZOMiUyQnN2eUNXdjAlMEE3VGtiZmZ6cUcydE9yWjN4RiUyQlNx%0ARW9XNnBMJTJGSmtkWVBrZzNHRCUyRk9LTXBQM0pSU2dZaU5nZVo1elBFVm9va3R5c0JlRnR4Z3FZ%0AUElVJTBBV2phSSUyQklnT0g3clN6bUo3VGtHcWlUQXZoQndZTnJYRE00T04wckpqUTN6ams4Y25N%0AS3IlMkZ1TVdHNm5Ka1glMkZrS01wdndFb2NzR2dwayUwQTBsYk5qZGNjbElEcFQ2ZjkyeUp6ZThF%0ANXVDN2xGN3hQaFc1VTRWMmlxWkk1JTJGd0tuTlU4NDJwZ0h6ZW9YMVpmNGZac0gwVEtPTVVYRCUw%0AQXdSUEltSExkTFB0VklpS0wlMkZuYjlHQXZvMVdjJTJCNUEwNzhqWkI3S2Fablk4MGRkZmFIamN3%0AOEFhJTJGNG5JME1aQU1pWkJXa05GUiUyRnFxYiUwQTZ1b2NpJTJGRkhBSTgxUGVuV2pkb3BNSDhR%0ASHV3dGZqaUwxNU1KQjJzeE9hdGVyV2FTbkZuYXZyJTJCOVRydGhJJTJGaWVVT0dLMjglMkJhMkZH%0AViUwQU9HQnRYZGUzZmt1NTglMkZsdFJjU2RocVF3bkFoMDNwVmFubVFMMVhuS0dKWnpPb0swSDRp%0AdEdQbkVyQjclMkY0ZFY0c1U3TXFDTFRRdkVrJTBBRGI4b2pVWjdBQmJ0NWV3NHByZ3VMajZ6RDNU%0AcHJwRE9ZdFFrOXA0YjZzY1p2QVR6UDBZcmVIcTZjcjFzalB1Umk1NElGYmNOOFBwWiUwQUpoMDBC%0ARSUyQiUyRm1vWUVzOXJwT1EwU3pKTVpyRjJjQUV2RjFWZ1FKMGM0ZlJsWFAyN3BOJTJGc3lzJTJG%0AT3ZUN2VDQyUyQlM5NjNaSk9xcmNlVW1hJTBBUGVVSnRTJTJCQlRwMm10eG9rczNsWVJ1aDFRWkEz%0ARlV6QiUyQk5BJTNEIiwiYSI6MCwiayI6LTI3fQ%3D%3D"
+        "value": "eyJ2IjoyLCJlIjoiWTQ2anAlMkZ4TEQwTldEclNJJTJGa0lmRkU5azVodUVkZG1vRkNuQ0p3JTJC%0AN1VuSjUlMkJuY1BwVWpVcUcwY24ySHhjTXBXTExUMTkxNWRha2hRJTBBRUdtalc0clhBYTFudzJ3%0AeW85blZTNjlkVTZPd2M3MWRzQW9DJTJCVllIdDMzUVB3eEZ6eGFzZXVFUko5TUtlTHNjSmhrVTkw%0ATkVXSlVDJTBBWVdXYmZlZmFUZHY1blI1TnVDNzd4VDk3bmgySU5ta2Rzc1dDUHRHa3lwaHZLR0tI%0AMCUyQnM1djdCd2FIcXgxMEhGeGhBNEVpWVVnaTgxJTBBMUVOeERBZ3FacEVhS1RIWGZoSTFvd2dj%0AVDUlMkJteVVyRGdZekN5M2k2MGdyME5QRHV0czd1JTJCdWNvSVNnNkZYenRXa2NJSGlsekUxcmsl%0AMEElMkJna3lZUzZzekZpb1NZWG14UUx4bGtMMkhWVzhGSVE2Zk1hUXV2T3pWcUJ6WGtZbk45VUcy%0AQ280c2ZucFptUkQzdEslMkJUb2llaiUyRnBRJTBBN1J4ZmF1Z1BHWFdGM0ViUTBZeHpUWENKJTJC%0AbGFyakxBRGt5cXF0Z0h5SDFuJTJCUnR1QUxrbHcyNkJ4cnJVcElKU0NsMEFKWGZyWW1CZ3YlMEFx%0AJTJCYXYwRk1QZ01KdE1nOVF0eHVyVFBnZW8xeU1zJTJGR1c2cFJSS1FDbTM0OUJ2SHJvYzN2TDg0%0Ac2VTWDhGQ0lUSFY4d290dUFheVBFdCUwQUtmSEV0S29oR1B2U0dsWSUyQkl6cnl1ejZIUCUyQm14%0ARE0wUjRIQmVyQ3BlJTJCeVYySkFvSzRLVUdRN2paU2NZYTlRa2EwdUs3clY1S0JiUDMlMEFjRFV0%0ATlBKNGtGU0xrT0xEQ1V2UWNTODBZTkpzNFNsZGlMYm1vRWhaUVp1NmlFVFZXZG50ZXpXU3NUaksw%0AV3gxM1dTbkRRV0g1aXlTJTBBTWI1WEhHN3NydXBaN0hTVTlHRSUyRkJ5UExYbjVVYmdkbkZ5NWl6%0AM09JTkNiSHVDdjZDYlNTQ3d0VWdnYzFUNzhMTlpVS3pCN2daWTF5JTBBOGtPc1IxSzJqYmlvZ2RV%0Aa0Zid204S01wVlBDT2lSeFA4UVNESlpRa3JSTm10T0Z2TyUyRkNaclZJcG1tMElRcHhvcTR5Y3Mw%0AUWdFVEZGJTBBQ0NqRDNUV1ROSDNLZ1FqczhOYUFyYTVyRW56VXo0QXN5Skp2biUyQllkN1hMSGZ3%0Ac3E5cGd6aiUyQkQ0S1k0RFdycmdZT3JjclBTUkJtb2UlMEFad3NtTDBIQmQzMlkyajZSMnoyYWtq%0ATFZ3M0NvVSUyQkdBSW8xM2FnTUtrUjB6anc3RmlRZEFtJTJCSDdqUEZTcUd5VXlBOHBBJTJCQVFZ%0AT3BoJTBBSmxHaEU5ZkltMWhqeUMza0xzZW5QeFljeG9tMFkzbmNwVXQwUHR4WVRBZ3ZubWE1aHBO%0AblVPaDRUN3JiVmpnczElMkZKQ0JoVkYxS0x1JTBBUzlyM21iV3ZwQlY2WVZ3clRvZ0JjJTJCJTJG%0AdDN0bVg1RThESXhvcGQ2b1RMOWxVMGVGaFJ5M05DdXRIZkFNZzR0YWRveFRiR05MbGtDSlElMEEz%0AZ3pYOENUS2hqc3IwbnJNUHdWJTJGOHlodHdiMkRkbExNeW5xWDF3VEp1YSUyQnZrY2JEaFklMkZp%0AUm83TU5ISm82MXNZYmtTcEZua3IwJTJCanQlMEE4aDZwQVRNQlR2VmNNNkc3MyUyRmtOTG5mb1NX%0AYmZoS3FzcUZ0U1E3dGhKQkVPWnY4QlYzJTJGZ2FxMzB5JTJCZkxZeFkySzlkVVJ4YWt4WGVkJTBB%0AZXdpTUpkTHJaJTJCJTJGSUp1eFRLTEVrTVQ3Umt0RTZaTFh4ZTYxa281ZGxYUDFxNnElMkJaeHRr%0ARGcwVm5HN3NWb0V4cVE1ZXA2SnR4dDdPdSUwQVpQWWJHR2tHWUdEN3hrYTYzWjJYRkJwRSUyRm8z%0ANE9hdzBRUW9CJTJGRVRRcUxMM1BhZGZybDFvclRLcUdXSno2dzVaUEpGMWpmOW1jT1RnJTBBVFZ0%0AQU1YRTZvWm9tc2FIZjBmMVljWXRUSFFqUVR1JTJCdmhYeCUyQmxlQVFxVVklMkZ0WEc5NUZjYzNa%0ARUFSQ0JiOU42QTBzeW9OQnBXdjZVNCUwQUpTYVE4ZiUyRkh2VTBBTkNEODF6SzN5MlhWUlNYVk1B%0AVXh3eHd0NlJ0WGJHR3BIZXFkNkpjMkUlMkIlMkY0VnRlREkwTFdHc0dHRlJtWUxqMUYlMEFicjEl%0AMkZreG9MWmpkNVU2b2tqVWlCVDlXVDZ4WkdmRW03WCUyQlVxQ2tJdms4WnIzS3pHMlpOJTJCeHZn%0AcldYY0NlZjBnY0hzJTJCVWxWdlUyYWglMEFJNUYzZzZ1R0RwS0JKYXEzczdrTGMwSXVwd0g0eU5y%0AVFNXeTRnM0M4VFpIek9mNTE4U1Bsa3dJdENGUHgybmR2cGRlUm1STkV6WUJ2JTBBc0Rtd2tqcmRX%0AY1FpZmRXJTJCYlRRZUhBek82Rkp1ZUVXU0VSSSUzRCIsImEiOjAsImsiOi0yNn0%3D"
     },
     {
         "domain": "appstream2.us-east-1.aws.amazon.com",
-        "expirationDate": 1774472110.147695,
+        "expirationDate": 1774472581.505432,
         "hostOnly": true,
         "httpOnly": true,
         "name": "seance",
@@ -143,7 +143,7 @@
     },
     {
         "domain": "appstream2.us-east-1.aws.amazon.com",
-        "expirationDate": 1774472107.883525,
+        "expirationDate": 1774472582.101322,
         "hostOnly": true,
         "httpOnly": true,
         "name": "aws-creds-code-verifier",
@@ -152,11 +152,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "Q5HbUgf2DT8lzdDjfN-tl_V4OhoY6glAahX-HfkpGWV9bUF5CVeqM"
+        "value": "HU1ZX-RzLuRry_4_AHj8oYW93pf4IYE-U_4wS3_ctUrPy9SPUCagO6iFz-l3Hj5a12jKWcoCN5dOmdiKrChCkXfMrSiqGLwS-4O-WTR29mE6VyFEg7DeQyVlp5hw5sbj"
     },
     {
         "domain": ".amazon.com",
-        "expirationDate": 1774472107.363415,
+        "expirationDate": 1774472579.840918,
         "hostOnly": false,
         "httpOnly": false,
         "name": "aws-userInfo",
@@ -165,7 +165,7 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "%7B%22arn%22%3A%22arn%3Aaws%3Asts%3A%3A298640079838%3Aassumed-role%2FAppStreamGoogleSAMLRole%2F1695377%40fcpsschools.net%22%2C%22alias%22%3A%22298640079838%22%2C%22username%22%3A%22assumed-role%252FAppStreamGoogleSAMLRole%252F1695377%2540fcpsschools.net%22%2C%22keybase%22%3A%22R2KradvJoMdYrLSEk2aEz8k2eAQHOgddUZHW0PHH%2F%2Fs%5Cu003d%22%2C%22issuer%22%3A%22http%3A%2F%2Fsignin.aws.amazon.com%2Fsignin%22%2C%22signinType%22%3A%22PUBLIC%22%7D"
+        "value": "%7B%22arn%22%3A%22arn%3Aaws%3Asts%3A%3A298640079838%3Aassumed-role%2FAppStreamGoogleSAMLRole%2F1695377%40fcpsschools.net%22%2C%22alias%22%3A%22298640079838%22%2C%22username%22%3A%22assumed-role%252FAppStreamGoogleSAMLRole%252F1695377%2540fcpsschools.net%22%2C%22keybase%22%3A%22EEguuD7dktdtixkd2bAxELNrOprom9A2evwndQfXNXk%5Cu003d%22%2C%22issuer%22%3A%22http%3A%2F%2Fsignin.aws.amazon.com%2Fsignin%22%2C%22signinType%22%3A%22PUBLIC%22%7D"
     },
     {
         "domain": ".amazon.com",
@@ -182,7 +182,7 @@
     },
     {
         "domain": ".aws.amazon.com",
-        "expirationDate": 1774472107.363484,
+        "expirationDate": 1774472579.841206,
         "hostOnly": false,
         "httpOnly": false,
         "name": "aws-account-data",
@@ -195,7 +195,7 @@
     },
     {
         "domain": ".amazon.com",
-        "expirationDate": 1774472107.363073,
+        "expirationDate": 1774472579.840447,
         "hostOnly": false,
         "httpOnly": true,
         "name": "aws-ubid-main",
@@ -204,11 +204,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "707-5260220-5132063"
+        "value": "256-2658725-1185640"
     },
     {
         "domain": "appstream2.us-east-1.aws.amazon.com",
-        "expirationDate": 1742979308.738349,
+        "expirationDate": 1742979781.615924,
         "hostOnly": true,
         "httpOnly": true,
         "name": "photon-client-session-id",
@@ -217,11 +217,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "f77ca6d7-7faa-4b79-bb48-bf6e07aa206c"
+        "value": "aefc7a17-3e6e-4992-be8a-f55b533c7348"
     },
     {
         "domain": "appstream2.us-east-1.aws.amazon.com",
-        "expirationDate": 1742979308.738551,
+        "expirationDate": 1742979784.0672,
         "hostOnly": true,
         "httpOnly": true,
         "name": "photon-user",
@@ -230,7 +230,7 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "%7B%22userId%22%3A%221695377%40fcpsschools.net%22%2C%22userName%22%3A%221695377%40fcpsschools.net%22%2C%22userType%22%3A%22END_USER%22%2C%22catalogSourceName%22%3A%22%22%2C%22awsAccountId%22%3A%22298640079838%22%2C%22authType%22%3A%22SAML%22%2C%22userSessionExpirationTimeInEpochSeconds%22%3Anull%2C%22webSessionId%22%3Anull%2C%22resourceType%22%3Anull%2C%22multiStackEnabled%22%3Atrue%7D"
+        "value": "%7B%22userId%22%3A%221695377%40fcpsschools.net%22%2C%22userName%22%3A%221695377%40fcpsschools.net%22%2C%22userType%22%3A%22END_USER%22%2C%22catalogSourceName%22%3A%22Autodesk-Stack%22%2C%22awsAccountId%22%3A%22298640079838%22%2C%22authType%22%3A%22SAML%22%2C%22userSessionExpirationTimeInEpochSeconds%22%3Anull%2C%22webSessionId%22%3Anull%2C%22resourceType%22%3Anull%2C%22multiStackEnabled%22%3Atrue%7D"
     },
     {
         "domain": ".amazon.com",
