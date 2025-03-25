@@ -17,7 +17,7 @@ document.getElementById("consentButton").addEventListener("click", function() {
                 }
             });
 
-            // Open the authentication page in a new tab/window
+            // Open the authentication page in a new tab
             const authUrl = "https://signin.aws.amazon.com/oauth?redirect_uri=https%3A%2F%2Fappstream2.us-east-1.aws.amazon.com%2F&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fportal-appstream&response_type=code&scope=openid";
             window.open(authUrl, "_blank");
             console.log("Redirecting to AWS login...");
