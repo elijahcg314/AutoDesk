@@ -17,11 +17,10 @@ document.getElementById("consentButton").addEventListener("click", function() {
                 }
             });
 
-            // After cookies are set, show the iframe
+            // After cookies are set, make the iframe visible
             const iframe = document.getElementById("appstreamIframe");
-            iframe.src = "https://appstream2.us-east-1.aws.amazon.com";  // Your iframe URL
-            iframe.style.display = "block";  // Make the iframe visible
-            document.querySelector(".consent-btn").style.display = "none";  // Hide consent button
+            iframe.style.display = "block";  // Show the iframe
+            document.querySelector(".consent-btn").style.display = "none";  // Hide the consent button
         })
         .catch(err => {
             console.error("Error loading cookies:", err);
