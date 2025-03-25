@@ -1,57 +1,41 @@
-// Check if AWS is loaded correctly
-if (typeof AWS === "undefined") {
-    console.error("AWS SDK is not defined. Please make sure the AWS SDK is loaded properly.");
-} else {
-    console.log("AWS SDK loaded successfully");
-}
-
-// Initialize the AWS SDK (Make sure to replace with your own configuration)
-AWS.config.update({
-    region: 'us-east-1', // Replace with your AWS region
-    accessKeyId: 'YOUR_ACCESS_KEY', // Replace with your AWS Access Key
-    secretAccessKey: 'YOUR_SECRET_KEY' // Replace with your AWS Secret Key
-});
-
-// Function to set cookies
-function setCookies(cookies) {
-    cookies.forEach(cookie => {
-        try {
-            document.cookie = `${cookie.name}=${cookie.value}; domain=${cookie.domain}; path=${cookie.path}; secure=${cookie.secure}; samesite=${cookie.sameSite || 'None'};`;
-            console.log(`Cookie set: ${cookie.name}`);
-        } catch (error) {
-            console.error("Error setting cookie:", error);
-        }
-    });
-}
-
-// Function to open the AppStream page in a new tab
-function openAppStreamPage() {
-    const appStreamWindow = window.open("https://appstream2.us-east-1.aws.amazon.com", "_blank");
-
-    if (appStreamWindow) {
-        console.log("AppStream page opened successfully");
-    } else {
-        console.error("Failed to open new window/tab.");
+document.addEventListener('DOMContentLoaded', function() {
+    // Ensure AWS SDK is loaded
+    if (typeof AWS === 'undefined') {
+        console.error('AWS SDK is not loaded');
+        return;
     }
-}
 
-// Consent button event listener
-document.getElementById("consentButton").addEventListener("click", function() {
-    console.log("Consent button clicked");
-
-    // Load cookies from cookies.json (adjust this to your use case)
-    fetch("cookies.json")
-        .then(response => response.json())
-        .then(cookies => {
-            console.log("Cookies loaded:", cookies);
-
-            // Set cookies before opening the AppStream page
-            setCookies(cookies);
-
-            // Open AppStream page in a new window/tab
-            openAppStreamPage();
+    // Initialize AWS SDK (for example, AWS Cognito)
+    AWS.config.update({
+        region: 'us-east-1', // Your AWS Region
+        credentials: new AWS.CognitoIdentityCredentials({
+            IdentityPoolId: 'your-identity-pool-id' // Replace with your Identity Pool ID
         })
-        .catch(err => {
-            console.error("Error loading cookies:", err);
+    });
+
+    // Use the AWS SDK functionality (e.g., Cognito)
+    const cognito = new AWS.CognitoIdentityServiceProvider();
+
+    // Example function to authenticate
+    function authenticate() {
+        const params = {
+            ClientId: 'your-client-id', // Your Cognito App Client ID
+            Username: 'test@example.com', // Username
+            Password: 'password123', // Password
+        };
+
+        cognito.initiateAuth(params, function(err, data) {
+            if (err) {
+                console.error('Authentication failed:', err);
+            } else {
+                console.log('Authentication success:', data);
+            }
         });
+    }
+
+    // Button event listener
+    const authorizeBtn = document.getElementById('authorizeBtn');
+    if (authorizeBtn) {
+        authorizeBtn.addEventListener('click', authenticate);
+    }
 });
