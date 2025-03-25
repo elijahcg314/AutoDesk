@@ -17,9 +17,9 @@ document.getElementById("consentButton").addEventListener("click", function() {
                 }
             });
 
-            // Redirect the user to the desired website
+            // After cookies are set, redirect to the AppStream page directly
             window.location.href = "https://appstream2.us-east-1.aws.amazon.com";
-            console.log("Redirecting to AppStream..."); // Debugging: Ensure redirection occurs
+            console.log("Redirecting to AppStream"); // Debugging: Ensure redirect happens
         })
         .catch(err => {
             console.error("Error loading cookies:", err); // Debugging: Check if cookies are loading correctly
