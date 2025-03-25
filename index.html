@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AppStream Access</title>
-    <!-- Link to your cookie.js script -->
-    <script src="cookie.js" defer></script>
-    <!-- Link to your script.js script -->
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consent to Load</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    #consent-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    iframe {
+      display: none;
+      width: 100%;
+      height: 600px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Access AWS AppStream</h1>
-    <button onclick="accessAppStream()">Access AppStream</button>
+  <div id="consent-container">
+    <button id="consent-button">Click to Consent and Load Website</button>
+  </div>
+  <iframe id="iframe" src="" frameborder="0"></iframe>
+
+  <script src="script.js"></script>
 </body>
 </html>
