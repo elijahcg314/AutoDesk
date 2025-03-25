@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AutoDesk</title>
-
-    <!-- Include AWS SDK for JavaScript -->
-    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.907.0.min.js"></script>
-
-    <!-- Custom script - Make sure it runs after AWS SDK is loaded -->
-    <script src="script.js" defer></script>
+    <title>AppStream Authentication with Cookies</title>
 </head>
 <body>
-    <h1>Welcome to AutoDesk</h1>
-    <button id="authorizeBtn">Authorize with AWS</button>
+    <h1>Access AppStream 2.0</h1>
+    <button id="accessAppStreamBtn">Access AppStream</button>
+    
+    <iframe id="appStreamIframe" src="" width="100%" height="800px" style="display:none;"></iframe>
+
+    <script src="script.js"></script>
 </body>
 </html>
