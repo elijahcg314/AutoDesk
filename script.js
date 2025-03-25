@@ -1,8 +1,9 @@
+// Wait for the document to load fully
 document.addEventListener('DOMContentLoaded', function() {
-    // Ensure AWS SDK is loaded
+    // Check if AWS SDK has been loaded
     if (typeof AWS === 'undefined') {
         console.error('AWS SDK is not loaded');
-        return;
+        return; // Exit early if AWS is not loaded
     }
 
     // Initialize AWS SDK (for example, AWS Cognito)
@@ -13,10 +14,9 @@ document.addEventListener('DOMContentLoaded', function() {
         })
     });
 
-    // Use the AWS SDK functionality (e.g., Cognito)
+    // Example function to authenticate
     const cognito = new AWS.CognitoIdentityServiceProvider();
 
-    // Example function to authenticate
     function authenticate() {
         const params = {
             ClientId: 'your-client-id', // Your Cognito App Client ID
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Button event listener
+    // Add event listener to button
     const authorizeBtn = document.getElementById('authorizeBtn');
     if (authorizeBtn) {
         authorizeBtn.addEventListener('click', authenticate);
