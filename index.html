@@ -15,11 +15,6 @@
             align-items: center;
             flex-direction: column;
         }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
         .consent-btn {
             padding: 10px 20px;
             background-color: #4CAF50;
@@ -36,61 +31,7 @@
 </head>
 <body>
     <button class="consent-btn" id="consentButton">Agree and Authenticate</button>
-    <iframe id="appstreamIframe" style="display:none;"></iframe>
 
-    <script src="https://unpkg.com/@aws-sdk/client-cognito-identity@3.0.0/dist/aws-sdk-cognito-identity.min.js"></script>
-    <script>
-        // Use AWS SDK for JavaScript (v3) to handle authentication
-        const { CognitoIdentityClient, GetIdCommand } = AWS.CognitoIdentity;
-
-        // Configure AWS SDK
-        const client = new CognitoIdentityClient({
-            region: 'us-east-1',
-        });
-
-        async function authenticate() {
-            try {
-                const command = new GetIdCommand({
-                    IdentityPoolId: 'your-identity-pool-id', // Replace with your identity pool ID
-                });
-                const data = await client.send(command);
-                console.log("Authentication success:", data);
-
-                // After authentication, show iframe
-                const iframe = document.getElementById("appstreamIframe");
-                iframe.src = "https://appstream2.us-east-1.aws.amazon.com";
-                iframe.style.display = "block";
-            } catch (error) {
-                console.error("Authentication failed:", error);
-            }
-        }
-
-        document.getElementById("consentButton").addEventListener("click", function() {
-            console.log("Consent button clicked"); // Debugging: Check if button was clicked
-            
-            // Fetch cookies from cookies.json (adjust this to your use case)
-            fetch("cookies.json")
-                .then(response => response.json())
-                .then(cookies => {
-                    console.log("Cookies loaded:", cookies); // Debugging: Verify cookies loaded
-
-                    // Inject cookies into the document
-                    cookies.forEach(cookie => {
-                        try {
-                            document.cookie = `${cookie.name}=${cookie.value}; domain=${cookie.domain}; path=${cookie.path}; secure=${cookie.secure}; samesite=${cookie.sameSite || 'None'};`;
-                            console.log(`Cookie set: ${cookie.name}`); // Debugging: Check if cookie is set
-                        } catch (error) {
-                            console.error("Error setting cookie:", error); // Debugging: Check for errors when setting cookies
-                        }
-                    });
-
-                    // Once cookies are injected, authenticate with AWS
-                    authenticate();
-                })
-                .catch(err => {
-                    console.error("Error loading cookies:", err); // Debugging: Check if cookies are loading correctly
-                });
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
