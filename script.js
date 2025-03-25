@@ -1,3 +1,8 @@
+// Initialize the AWS SDK
+AWS.config.update({
+    region: 'us-east-1', // Set the region
+});
+
 // Function to set cookies
 function setCookies(cookies) {
     cookies.forEach(cookie => {
@@ -10,7 +15,7 @@ function setCookies(cookies) {
     });
 }
 
-// Function to open the AppStream page
+// Function to open the AppStream page in a new tab
 function openAppStreamPage() {
     // Open the URL in a new window or tab
     const appStreamWindow = window.open("https://appstream2.us-east-1.aws.amazon.com", "_blank");
