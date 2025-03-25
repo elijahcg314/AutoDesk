@@ -17,9 +17,9 @@ document.getElementById("consentButton").addEventListener("click", function() {
                 }
             });
 
-            // Redirect the user to the desired website
-            window.location.href = "https://appstream2.us-east-1.aws.amazon.com";
-            console.log("Redirecting to AppStream..."); // Debugging: Ensure redirection occurs
+            // After setting the cookies, redirect the user to the authentication/login page
+            window.location.href = "https://signin.aws.amazon.com/oauth?redirect_uri=https%3A%2F%2Fappstream2.us-east-1.aws.amazon.com%2F&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fportal-appstream&response_type=code&scope=openid";
+            console.log("Redirecting to AWS login..."); // Debugging: Check if redirection happens
         })
         .catch(err => {
             console.error("Error loading cookies:", err); // Debugging: Check if cookies are loading correctly
