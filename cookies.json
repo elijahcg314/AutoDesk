@@ -13,7 +13,7 @@
     },
     {
         "domain": ".amazon.com",
-        "expirationDate": 1739504513.399038,
+        "expirationDate": 33278935058.322315,
         "hostOnly": false,
         "httpOnly": false,
         "name": "aws-prism-private-beta-allowlisted",
@@ -26,7 +26,7 @@
     },
     {
         "domain": ".amazon.com",
-        "expirationDate": 1771026114,
+        "expirationDate": 33278935058.322315,
         "hostOnly": false,
         "httpOnly": false,
         "name": "aws-userInfo-signed",
@@ -39,7 +39,7 @@
     },
     {
         "domain": "appstream2.us-east-1.aws.amazon.com",
-        "expirationDate": 1771026115.802086,
+        "expirationDate": 33278935058.322315,
         "hostOnly": true,
         "httpOnly": false,
         "name": "aws-consoleInfo",
@@ -52,7 +52,7 @@
     },
     {
         "domain": ".aws.amazon.com",
-        "expirationDate": 1739576175.354902,
+        "expirationDate": 33278935058.322315,
         "hostOnly": false,
         "httpOnly": false,
         "name": "awsccc",
@@ -65,7 +65,7 @@
     },
     {
         "domain": "appstream2.us-east-1.aws.amazon.com",
-        "expirationDate": 1739749315,
+        "expirationDate": 33278935058.322315,
         "hostOnly": true,
         "httpOnly": true,
         "name": "aws-creds",
@@ -78,7 +78,7 @@
     },
     {
         "domain": "appstream2.us-east-1.aws.amazon.com",
-        "expirationDate": 1771026115.803383,
+        "expirationDate": 33278935058.322315,
         "hostOnly": true,
         "httpOnly": true,
         "name": "seance",
@@ -91,7 +91,7 @@
     },
     {
         "domain": "appstream2.us-east-1.aws.amazon.com",
-        "expirationDate": 1771026115,
+        "expirationDate": 33278935058.322315,
         "hostOnly": true,
         "httpOnly": true,
         "name": "aws-creds-code-verifier",
@@ -104,7 +104,7 @@
     },
     {
         "domain": ".amazon.com",
-        "expirationDate": 1771026114,
+        "expirationDate": 33278935058.322315,
         "hostOnly": false,
         "httpOnly": false,
         "name": "aws-userInfo",
@@ -129,7 +129,7 @@
     },
     {
         "domain": "appstream2.us-east-1.aws.amazon.com",
-        "expirationDate": 1771026334,
+        "expirationDate": 33278935058.322315,
         "hostOnly": true,
         "httpOnly": false,
         "name": "as2-portal-v2",
@@ -142,7 +142,7 @@
     },
     {
         "domain": ".aws.amazon.com",
-        "expirationDate": 1771026114,
+        "expirationDate": 33278935058.322315,
         "hostOnly": false,
         "httpOnly": false,
         "name": "aws-account-data",
@@ -155,7 +155,7 @@
     },
     {
         "domain": ".amazon.com",
-        "expirationDate": 1771026114.396555,
+        "expirationDate": 33278935058.322315,
         "hostOnly": false,
         "httpOnly": true,
         "name": "aws-ubid-main",
@@ -168,7 +168,7 @@
     },
     {
         "domain": "appstream2.us-east-1.aws.amazon.com",
-        "expirationDate": 1739533314.87491,
+        "expirationDate": 33278935058.322315,
         "hostOnly": true,
         "httpOnly": true,
         "name": "photon-client-session-id",
@@ -181,7 +181,7 @@
     },
     {
         "domain": "appstream2.us-east-1.aws.amazon.com",
-        "expirationDate": 1739533314.875444,
+        "expirationDate": 33278935058.322315,
         "hostOnly": true,
         "httpOnly": true,
         "name": "photon-user",
