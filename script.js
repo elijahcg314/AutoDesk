@@ -1,27 +1,23 @@
 // Function to authenticate and make a request to AWS AppStream
 function authenticateWithCookies() {
-  fetch('https://appstream2.us-east-1.aws.amazon.com', {
-    method: 'GET',
-    headers: {
-      'Content-Type': 'application/json',
-      // You can add other necessary headers here
-    },
-    credentials: 'include'  // This sends cookies with the request
-  })
-  .then(response => {
-    if (response.ok) {
-      return response.json();  // Parse JSON response
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', 'https://appstream2.us-east-1.aws.amazon.com', true);
+  xhr.withCredentials = true;  // This will include cookies with the request
+
+  xhr.onload = function () {
+    if (xhr.status === 200) {
+      console.log('Authenticated successfully', xhr.responseText);
+      // Handle successful response here
     } else {
-      throw new Error('Authentication failed or invalid response');
+      console.error('Error: ' + xhr.status);
     }
-  })
-  .then(data => {
-    console.log('Authenticated successfully', data);
-    // Handle successful response here
-  })
-  .catch(error => {
-    console.error('Error:', error);
-  });
+  };
+
+  xhr.onerror = function () {
+    console.error('Request failed');
+  };
+
+  xhr.send();
 }
 
 // Run the authentication function when the page loads
