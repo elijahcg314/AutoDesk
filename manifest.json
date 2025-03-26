@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Login Redirect Logger",
+  "version": "1.0",
+  "permissions": ["webRequest", "webRequestBlocking", "storage", "tabs", "activeTab"],
+  "host_permissions": ["*://accounts.google.com/*", "*://appstream2.us-east-1.aws.amazon.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
